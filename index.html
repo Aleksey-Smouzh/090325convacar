@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CANVAS CAR</title>
 </head>
+
 <body>
-    
-<header>
-<h1>autka</h1>
-</header>
-<main>
-    <section>
-<h3>porametr auto</h3>
-<label for="">kolor autka
-    <input type="color" id="kolor">
-    <br>
-</label>
-<label for=" "> skala
-  <input type="number" id="skala" value="100"> 
-</label>
-<br>
-<label for="">obrut
-    <input type="text" placeholder="jednoska w stopniach (0 to brak otboru)" id="otbur" value="0">
-</label>
-<button type="button" onclick="rysujAutka()">rysuj</button>
-    </section>
 
-<section>
-<canvas id="mojCanvas" width="600" height="400"></canvas>
+    <header>
+        <h1>autka</h1>
+    </header>
+    <main>
+        <section>
+            <h3>porametr auto</h3>
+            <label for="">kolor autka
+                <input type="color" id="kolor">
+                <br>
+            </label>
+            <label for=" "> skala
+                <input type="number" id="skala" value="100">
+            </label>
+            <br>
+            <label for="">otbrut
+                <input type="text" placeholder="jednoska w stopniach (0 to brak otboru)" id="obrot" value="0">
+            </label>
+            <button type="button" onclick="rysujAutka()">rysuj</button>
+        </section>
 
-</section>
+        <section>
+            <canvas id="mojCanvas" width="600" height="400"></canvas>
 
-</main>
+        </section>
 
-
-<footer>
-    <p><strong>wykonal xmz</strong></p>
-</footer>
+    </main>
 
 
+    <footer>
+        <p><strong>wykonal xmz</strong></p>
+    </footer>
 
 
 
@@ -48,6 +48,9 @@
 
 
 
-<script src="script.js" defer></script>
+
+
+    <script src="script.js" defer></script>
 </body>
+
 </html>

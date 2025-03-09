@@ -1,19 +1,19 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
 
 #kolor,
 #skala,
-#otbur{
-    margin-bottom: 20px;
+#obrot {
+  margin-bottom: 20px;
 }
 
-canvas{
-    border: 1px solid #000;
+canvas {
+  border: 1px solid #000;
 }
